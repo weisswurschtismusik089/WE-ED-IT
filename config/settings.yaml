@@ -1,0 +1,58 @@
+# WE-ED-IT Configuration
+
+# Audio Analysis Settings
+audio:
+  sample_rate: 22050
+  hop_length: 512
+  n_mfcc: 13
+  n_fft: 2048
+
+# Clip Matching Settings
+clip_matching:
+  min_clip_duration: 0.5
+  max_clip_duration: 60.0
+  avoid_repetition: true
+  semantic_threshold: 0.5
+  max_clips_per_segment: 1
+
+# Video Rendering Settings
+video:
+  output_width: 1920
+  output_height: 1080
+  fps: 30
+  codec: libx264
+  preset: medium
+  bitrate: 8000k
+  audio_bitrate: 192k
+  format: mp4
+
+# Effects Settings
+effects:
+  enable_effects: true
+  enable_transitions: true
+  transition_duration: 0.5
+  wobble_zoom_intensity: 0.8
+  enable_color_grading: true
+  
+# Directory Settings
+directories:
+  input_sound: input/Sound
+  input_clips: input/ClipPool
+  output: output
+  temp: temp
+  logs: logs
+  db: db_data
+
+# Performance Settings
+performance:
+  max_workers: 4
+  chunk_size: 1024
+  cache_analysis: true
+  stream_processing: true
+
+# Logging Settings
+logging:
+  level: INFO
+  file: logs/we-edit-it.log
+  max_size: 500MB
+  rotation: daily
