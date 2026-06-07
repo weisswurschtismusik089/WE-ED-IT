@@ -1,0 +1,62 @@
+# Audio Processing
+librosa==0.10.0
+essentia==2.1.0
+audioread==3.1.1
+pydub==0.25.1
+
+# Video Processing
+opencv-python==4.8.0.74
+ffmpeg-python==0.2.1
+ffprobe-python==0.5.0
+
+# Metadata & Tags
+easyid3==0.9.7
+mutagen==1.46.0
+piexif==1.1.3
+
+# ML & Deep Learning
+scikit-learn==1.3.0
+numpy==1.24.3
+scipy==1.11.1
+transformers==4.30.0
+torch==2.0.0
+torchvision==0.15.0
+Pillow==10.0.0
+
+# Computer Vision
+opencv-contrib-python==4.8.0.74
+segmentation-models==1.1.31
+
+# Natural Language Processing
+sentencepiece==0.1.99
+nltk==3.8.1
+
+# Vector & Embeddings
+faiss-cpu==1.7.4
+annoy==1.17.0
+
+# Configuration & Data
+pyyaml==6.0
+pydantic==2.0.0
+python-dotenv==1.0.0
+pandas==2.0.0
+
+# Database
+jsondb==1.0.0
+tinydb==4.8.0
+sqlite3
+
+# Logging & Development
+loguru==0.7.0
+pytest==7.4.0
+pytest-cov==4.1.0
+tqdm==4.65.0
+click==8.1.3
+
+# Export
+python-csv==0.0.13
+openpyxl==3.1.0
+
+# GPU Support (Optional)
+# torch-cuda (install via PyTorch installer)
+# tensorflow (alternative to torch)
